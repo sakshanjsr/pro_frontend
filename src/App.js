@@ -4,7 +4,7 @@ import './App.css';
 
 // Vercel automatically routes requests from the frontend to the backend API
 // hosted on the same domain, so we can use a relative URL.
-const API_URL = '/api/users';
+const API_URL = 'https://pro-backend-4boe.onrender.com';
 
 function App() {
   const [name, setName] = useState('');
